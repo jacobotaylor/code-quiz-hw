@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code quiz</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        
+        main > section {
+            display: flex;
+            flex-direction: column;
+        }
+        </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>code quiz</h1>
+            <h3 class="timer" id="countdown">Timer: 60</h3>
+        </header>
+        <section id="start">
+            <h2>START</h2>
+            <button id="startBtn">Start</button>
+        </section>
+        <section id="quiz">
+            <h2>QUIZ</h2>
+            <h3></h3>
+            <article></article>
+        </section>
+        <section id="score">
+            <h2>SCORE</h2>
+            <form>
+                <label for="intials">
+                    Initials
+                </label>
+                <input id="initials" maxlength="3"/>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
