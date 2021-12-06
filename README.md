@@ -2,9 +2,9 @@
 # Read me
 
 
-[MY HOMEWORK](https://jacobotaylor.github.io/password--gen/)
+[MY HOMEWORK](https://jacobotaylor.github.io/code-quiz-hw/)
 
-<img src="pgsc.png"> (Generator Screenshot)
+<img src=img_121212> (quiz Screenshot)
 
 ## table of content
 - [description](#description)
@@ -13,7 +13,7 @@
 - [usage](#usage)
 
 ## description
-This will allow you to create a new random password
+This will probably not let you play anything
 
 ## installation
 this is a demo instal ```code.```
